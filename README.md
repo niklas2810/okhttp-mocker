@@ -8,6 +8,9 @@
 <a href="https://github.com/niklas2810/okhttp-mocker/actions">
 <img alt="GitHub Build" src="https://img.shields.io/github/workflow/status/niklas2810/okhttp-mocker/Build%20Project?logo=github&style=for-the-badge">
 </a>
+<a href="https://app.codacy.com/gh/niklas2810/okhttp-mocker/dashboard?branch=main">
+<img alt="Codacy" src="https://img.shields.io/codacy/grade/d3c8c665d8f048f99c528250777fdc2a?logo=codacy&style=for-the-badge">
+</a>
 </p>
 
 `okhttp-mocker` is a Java Testing library to provide fake

@@ -27,8 +27,15 @@ responses for an [OkHttp](https://github.com/square/okhttp) client.
 
 ## Installation
 
-Will be available as soon as this project
-is anywhere near completion.
+```xml
+<dependency>
+    <groupId>com.niklasarndt</groupId>
+    <artifactId>okhttp-mocker</artifactId>
+    <version>1.0.0</version>
+    <scope>test</scope>
+</dependency>
+```
+_Please make sure that the version number is up to date (via the badge at the top)!_
 
 
 ## Usage

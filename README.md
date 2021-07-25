@@ -31,7 +31,7 @@ responses for an [OkHttp](https://github.com/square/okhttp) client.
 <dependency>
     <groupId>com.niklasarndt</groupId>
     <artifactId>okhttp-mocker</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <scope>test</scope>
 </dependency>
 ```
@@ -91,9 +91,10 @@ The problems I faced were these:
 
 - The project targeted at Android users. **This is not a focus anymore** (which means that integrations like Roboelectric have been removed). 
 However, the code might work just fine on Android devices, even though I didn't (and won't) test this.
-- The project was no longer maintained. I updated the dependencies and make sure all deprecations have been fixed.
-- The project was not available at Maven Central, but rather available via Jitpack. Therefore, importing it would require 
-an additional repository.
+- The project was no longer maintained. I updated the dependencies and make sure all deprecations
+  have been fixed.
+- The project was not available at Maven Central, only via Jitpack. I wanted to simplify the setup
+  process and therefore put it on Maven Central.
 
 ## Dependencies
 
